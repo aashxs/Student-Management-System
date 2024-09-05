@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+
+  height: 40px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  margin-bottom: 20px;
+}
+input {
+  height: 40px;
+  width: 83vw;
+  margin: 0px 10px 0px 10px;
+}
+
+#search_btn {
+  width: 160px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+#search_btns > button {
+  width: 160px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+#search_btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+table,
+th,
+td {
+  margin: 10px;
+  width: 96vw;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}

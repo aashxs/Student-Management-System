@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>STUDENT PORTAL</header>
+    <div id="search_bar">
+      <input
+        type="text"
+        placeholder="Search"
+        onkeyup="dynamicSearch()"
+        id="inputs"
+      />
+      <button id="search_btn" onclick="search()">Search</button>
+    </div>
+    <div id="search_btns">
+      <button id="asc" onclick="ascending()">Sort A->Z</button>
+      <button id="des" onclick="decsending()">Sort Z->A</button>
+      <button id="marks" onclick="marks()">Sort By Marks</button>
+      <button id="passing" onclick="pass()">Sort By Passing</button>
+      <button id="class" onclick="whichClass()">Sort By Class</button>
+      <button id="gender" onclick="gender()">Sort By Gender</button>
+    </div>
+    <table id="myTable"></table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
